@@ -35,3 +35,41 @@ It uses `nmap` under the hood and gives clear, color-coded feedback on supported
 ```bash
 chmod +x smart_tls_check.sh
 ./smart_tls_check.sh
+```
+
+You’ll be prompted to enter a domain or IP:
+
+🔍 Enter domain or IP to scan: example.com
+
+## 📦 Sample Output
+
+```bash
+🔐 Supported TLS versions:
+  TLSv1.2  (Secure – ✅)
+  TLSv1.3  (Secure – ✅)
+
+🔎 Insecure or weak cipher suites:
+✅ No weak ciphers detected.
+
+✅ Cipher strength rating is A.
+
+📋 Recommendation:
+✅ No action needed. TLS configuration looks secure.
+
+📁 Full scan saved to: .tls_scan_tmp.txt
+```
+
+
+## 🔒 When to Use
+
+Before deploying a web server (Apache, Nginx, etc.)
+
+To harden your TLS configuration
+
+To verify if outdated protocols or ciphers are still enabled
+
+As part of security auditing or pentesting
+
+
+
+
