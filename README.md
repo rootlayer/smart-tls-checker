@@ -45,18 +45,21 @@ You’ll be prompted to enter a domain or IP:
 
 ```bash
 🔐 Supported TLS versions:
-  TLSv1.2  (Secure – ✅)
-  TLSv1.3  (Secure – ✅)
+  TLSv1.0:  (Insecure – ❌)
+  TLSv1.1:  (Insecure – ❌)
+  TLSv1.2:  (Secure – ✅)
+  TLSv1.3:  (Secure – ✅)
 
 🔎 Insecure or weak cipher suites:
-✅ No weak ciphers detected.
+⚠  The following weak ciphers were found:
+  🔸 |       TLS_DHE_RSA_WITH_AES_128_CBC_SHA (dh 2048) - A
+  🔸 |       TLS_DHE_RSA_WITH_AES_256_CBC_SHA (dh 2048) - A
+  🔸 |       TLS_DHE_RSA_WITH_CAMELLIA_128_CBC_SHA (dh 2048) - A
+  🔸 |       TLS_DHE_RSA_WITH_CAMELLIA_256_CBC_SHA (dh 2048) - A
+  🔸 |       TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA (secp256r1) - A
+  🔸 |       TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA (secp256r1) - A
+  🔸 |       TLS_RSA_WITH_AES_128_CBC_SHA (rsa 2048) - A
 
-✅ Cipher strength rating is A.
-
-📋 Recommendation:
-✅ No action needed. TLS configuration looks secure.
-
-📁 Full scan saved to: .tls_scan_tmp.txt
 ```
 
 
