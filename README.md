@@ -1,7 +1,7 @@
-# smart-tls-checker
+# Smart-TLS-Checker
  A Bash-based tool to scan and audit TLS versions and cipher suites using nmap
 
-# 🔐 smart_tls_check.sh
+# 🔐 smart-TLS-ciphers.sh
 
 A lightweight bash script to scan and analyze the **TLS/SSL configuration** of a target domain or IP.  
 It uses `nmap` under the hood and gives clear, color-coded feedback on supported protocols, weak cipher suites, and recommendations for hardening.
@@ -33,7 +33,7 @@ It uses `nmap` under the hood and gives clear, color-coded feedback on supported
 ## 🚀 Usage
 
 ```bash
-chmod +x smart_tls_check.sh
+chmod +x smart-TLS-ciphers.sh
 ./smart_tls_check.sh
 ```
 
