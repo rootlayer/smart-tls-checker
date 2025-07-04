@@ -34,7 +34,7 @@ It uses `nmap` under the hood and gives clear, color-coded feedback on supported
 
 ```bash
 chmod +x smart-TLS-ciphers.sh
-./smart_tls_check.sh
+./smart-TLS-ciphers.sh
 ```
 
 You’ll be prompted to enter a domain or IP:
